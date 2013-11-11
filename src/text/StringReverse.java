@@ -22,7 +22,7 @@ public class StringReverse {
 	public static void main(String[] args) {
 
 		String input;
-		System.out.println("Enter the string \n");
+		System.out.println("Enter the string ");
 		Scanner scan = new Scanner(System.in);
 		input = scan.nextLine();
 		System.out.println("Reversed word : " + reverseWord(input));
