@@ -24,7 +24,7 @@ public class CountWords {
 		
 	}
 	public static void main(String[] args) throws Exception {
-		BufferedReader br = new BufferedReader(new FileReader("/home/pavan/input.txt"));
+		BufferedReader br = new BufferedReader(new FileReader(args[0]));
 		StringBuilder sb = new StringBuilder();
 		String line = br.readLine();
 
